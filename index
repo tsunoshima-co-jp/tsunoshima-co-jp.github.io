@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <title>Tsunoshima Co., Ltd.</title>
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+JP:wght@400;600&family=Montserrat:wght@300;500&display=swap" rel="stylesheet">
+
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      background: linear-gradient(135deg, #1c66c3, #58a6d6);
+      height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      color: #ffffff;
+      text-align: center;
+    }
+
+    .center-content {
+      max-width: 800px;
+      padding: 20px;
+    }
+
+    h1 {
+      font-family: 'Noto Serif JP', serif;
+      font-weight: 600;
+      font-size: 42px;
+      letter-spacing: 6px;
+      margin-bottom: 10px;
+    }
+
+    .en {
+      font-family: 'Montserrat', sans-serif;
+      font-weight: 300;
+      font-size: 18px;
+      letter-spacing: 4px;
+      opacity: 0.8;
+      margin-bottom: 60px;
+    }
+
+    .message {
+      font-family: 'Noto Serif JP', serif;
+      font-size: 30px;
+      line-height: 2;
+      letter-spacing: 4px;
+      margin-bottom: 60px;
+    }
+
+    .contact {
+      font-family: 'Montserrat', sans-serif;
+      letter-spacing: 3px;
+      font-size: 14px;
+    }
+
+    .contact a {
+      display: inline-block;
+      margin-top: 10px;
+      font-size: 20px;
+      color: #ffffff;
+      text-decoration: none;
+      border-bottom: 1px solid #ffffff;
+      padding-bottom: 3px;
+      transition: 0.3s ease;
+    }
+
+    .contact a:hover {
+      opacity: 0.7;
+    }
+  </style>
+
+</head>
+<body>
+
+  <div class="center-content">
+    <h1>株式会社角島</h1>
+    <p class="en">Tsunoshima Co., Ltd.</p>
+
+    <p class="message">
+      美しい角島の魅力を未来へ。<br>
+      もうすぐ始動。
+    </p>
+
+    <p class="contact">
+      CONTACT<br>
+      <a href="mailto:info@tsunoshima.co.jp">
+        info@tsunoshima.co.jp
+      </a>
+    </p>
+  </div>
+
+</body>
+</html>
